@@ -81,12 +81,4 @@ const listIcons = [
 		label: 'Tủ đồ',
 		icon: <AllInboxOutlinedIcon />,
 	},
-	{
-		label: 'Tivi',
-		icon: <TvOutlinedIcon />,
-	},
-	{
-		label: 'Thú cưng',
-		icon: <PetsOutlinedIcon />,
-	},
 ]
