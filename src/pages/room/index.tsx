@@ -157,12 +157,12 @@ export default function RoomDetail() {
 					</Typography>
 
 					<div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-						{RoomData?.data?.owner?.username === user.username &&
+						{/* {RoomData?.data?.owner?.username === user.username &&
 							RoomData.data.status !== 'already-rent' && (
 								<ButtonRent onClick={() => navigation(`/room/addRoom/${RoomData?.data._id}`)}>
 									{t('Room.edit_room')}
 								</ButtonRent>
-							)}
+							)} */}
 
 						{RoomData &&
 							RoomData?.data?.owner?.username !== user.username &&

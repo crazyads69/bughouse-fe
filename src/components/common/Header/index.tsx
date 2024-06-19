@@ -277,7 +277,7 @@ Header.Notifications = ({
 	const checkNotiMutate = useMutation({
 		mutationFn: userApi.checkNotification,
 		onSuccess: (data) => {
-			queryClient.invalidateQueries({ queryKey: ['getAllNotifications'] })
+			queryClient.Queries({ queryKey: ['getAllNotifications'] })
 		},
 		onError: (err) => {
 			ShowNostis.error('Something wrong please contact an admin')
