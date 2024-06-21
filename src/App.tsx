@@ -29,6 +29,7 @@ const theme = createTheme({
 	},
 })
 
+// Init app
 function App() {
 	return (
 		<Suspense fallback={<LoadingFallBack />}>
