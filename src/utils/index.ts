@@ -15,6 +15,18 @@ export const randomId = () => {
 
 export const itemData = [
 	{
+		img: 'https://bayleaf.s3.amazonaws.com/property-images%2F1673341812709_IMG_5285.JPG',
+		title: 'Breakfast',
+		rows: 2,
+		cols: 2,
+	},
+	{
+		img: 'https://bayleaf.s3.amazonaws.com/property-images%2F1673341812709_IMG_5286.JPG',
+		title: 'Burger',
+		rows: 2,
+		cols: 2,
+	},
+	{
 		img: 'https://bayleaf.s3.amazonaws.com/property-images%2F1673341812707_IMG_5284.JPG',
 		title: 'Camera',
 		rows: 2,

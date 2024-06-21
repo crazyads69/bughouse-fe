@@ -31,11 +31,11 @@ import {
 	StyledNoRoom,
 	TrendingHeader,
 	TrendingItem,
-	TrendingList,
-	TrendingSearch,
-	VerifiAccount,
-	WrapperBackground,
-	WrapperBanner,
+	// TrendingList,
+	// TrendingSearch,
+	// VerifiAccount,
+	// WrapperBackground,
+	// WrapperBanner,
 } from './HomeStyles'
 
 const Home = () => {
