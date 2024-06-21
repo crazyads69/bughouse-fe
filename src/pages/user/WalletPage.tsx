@@ -67,6 +67,25 @@ const WalletPage = () => {
 		})
 	}
 
+	// const handleDeposit = () => {
+	// 	Swal.fire({
+	// 		title: 'Số tiền muốn rút',
+	// 		input: 'text',
+	// 		inputAttributes: {
+	// 			autocapitalize: 'off',
+	// 		},
+	// 		showCancelButton: true,
+	// 		confirmButtonText: 'Rút',
+	// 		cancelButtonText: 'Huỷ',
+	// 		showLoaderOnConfirm: true,
+	// 		preConfirm: (values: number) => handleWithDrawWallet(values),
+	// 		allowOutsideClick: () => !Swal.isLoading(),
+	// 	}).then((result: any) => {
+	// 		console.log('🚀 ~ file: WalletPage.tsx:43 ~ handleWithDraw ~ result:', result)
+	// 		// handleTopupWallet(result)
+	// 	})
+	// }
+
 	const { data: walletData, isLoading } = useQuery({
 		queryKey: ['getWalletInfo'],
 		queryFn: () => userApi.getWalletInfo(),
