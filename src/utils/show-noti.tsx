@@ -11,5 +11,11 @@ class Notify {
 	warning = (message: string) => toast.warning(<Noti message={message} />)
 }
 
+class NotifyType {
+	success = (message: string) => toast.success(<Noti message={message} />)
+	error = (message: string) => toast.error(<Noti message={message} />)
+	warning = (message: string) => toast.warning(<Noti message={message} />)
+}
+
 const ShowNostis = new Notify()
 export default ShowNostis

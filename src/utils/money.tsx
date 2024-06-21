@@ -46,3 +46,25 @@ export function convertMoneyToVndText(money: number | undefined): string {
 		return `${money}`
 	}
 }
+
+// export function convertMoneyToVndText(money: number | undefined): string {
+// 	if (!money) return '0k'
+// 	if (money < 1000) {
+// 		return `${money}`
+// 	} else if (money < 10000) {
+// 		return `${Math.floor(money / 1000)}k`
+// 	} else if (money < 1000000) {
+// 		return `${Math.floor(money / 1000)}k`
+// 	} else if (money < 1000000000) {
+// 		const millions = Math.floor(money / 1000000)
+// 		const remainder = money % 1000000
+// 		if (remainder === 0) {
+// 			return `${millions}tr`
+// 		} else {
+// 			const thousands = Math.floor(remainder / 1000)
+// 			return `${millions}tr${thousands !== 0 ? `${thousands}` : ''}`
+// 		}
+// 	} else {
+// 		return `${money}`
+// 	}
+// }
