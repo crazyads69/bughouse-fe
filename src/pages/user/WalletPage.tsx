@@ -28,6 +28,7 @@ const WalletPage = () => {
 
 	const { t, i18n } = useTranslation()
 
+	// Handle nạp tiền vào ví
 	const handleTopUp = () => {
 		Swal.fire({
 			title: 'Số tiền muốn nạp vào ví',
@@ -42,7 +43,7 @@ const WalletPage = () => {
 			preConfirm: (values: number) => handleTopupWallet(values),
 			allowOutsideClick: () => !Swal.isLoading(),
 		}).then((result: any) => {
-			console.log('🚀 ~ file: WalletPage.tsx:43 ~ handleTopUp ~ result:', result)
+			// console.log('🚀 ~ file: WalletPage.tsx:43 ~ handleTopUp ~ result:', result)
 			// handleTopupWallet(result)
 		})
 	}
